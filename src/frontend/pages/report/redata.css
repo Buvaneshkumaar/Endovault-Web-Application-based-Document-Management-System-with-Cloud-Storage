@@ -1,0 +1,33 @@
+.body-container {
+  display: flex;
+}
+
+.dashboard-container {
+  margin-top: 100px;
+  display: flex;
+  background-color: antiquewhite;
+  justify-content: center;
+  width: 500px;;
+  height: 500px;
+}
+
+.sidebar {
+  /* Your existing sidebar styles */
+}
+
+.content-container {
+  padding: 20px;
+}
+
+.dashboard-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.bn {
+  /* Your button styles */
+}
+
+.report-status {
+  /* Your status styles */
+}

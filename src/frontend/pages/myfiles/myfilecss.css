@@ -1,0 +1,45 @@
+.container {
+    text-align: center;
+    margin-top:0;
+    margin:0 auto;
+}
+label{
+    color:white;
+}
+
+table {
+    
+    width: 150vh;
+    
+    
+    justify-content: center;
+    align-items: center;
+    
+       
+}
+
+.filter-input {
+    margin-bottom: 20px;
+    
+}
+
+table {
+    margin: 0 auto; 
+   
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px;
+    text-align: center;
+    
+}
+td{
+    padding:10px;
+    text-align:center;
+    color:black;
+    background-color: antiquewhite;
+}
+th {
+    background-color: #f2f2f2;
+}

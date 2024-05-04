@@ -1,0 +1,44 @@
+@keyframes blink {
+    0% {
+      outline-color: #34ebba;
+    }
+    50% {
+      outline-color: transparent;
+    }
+    100% {
+      outline-color: #34ebba;
+    }
+  }
+  
+  /* .container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    outline: 2px solid #4CAF50;
+    animation: blink 1s infinite;
+  } */
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }

@@ -1,0 +1,85 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3JvdXAlMjB3b3JrfGVufDB8fDB8fHww'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.container{
+  display:flex;
+}
+main{
+  width:100%;
+  padding:200px;
+}
+
+.sidebar
+{
+  /* background: linear-gradient(to bottom right,#8f3ee6,#49a2e6,#33e8b5); */
+  color:#fff;
+  height:100%;
+  width: 500px;
+  min-height: 100vh; 
+  flex-shrink: 0;
+}
+
+
+.top_section
+{
+  display:flex;
+  align-items: center;
+  padding:15px 15px;
+}
+.logo
+{
+  font-size: 15px;
+}
+.bars
+{
+  display:flex;
+  font-size:15px;
+  margin-left:25px; 
+}
+.link
+{
+  display:flex;
+  color:#fff;
+  padding:20px 40px;
+  gap:5px;
+  transition:all 0.5s;
+}
+.link:hover{
+  background: white;
+  background: rgba(255, 255, 255, 0.3); /* Adjust the transparency here */
+ 
+  /* color:black; */
+}
+.active
+{
+  background: white;
+  background: rgba(255, 255, 255, 0.3); /* Adjust the transparency here */
+
+  color:black;
+}
+.icon,.link_text
+{
+  font-size: 20px; 
+}
+.main-content {
+  width: calc(100% - 200px); /* Adjust the width based on your sidebar width */
+  padding: 25px;
+}
+
+
+

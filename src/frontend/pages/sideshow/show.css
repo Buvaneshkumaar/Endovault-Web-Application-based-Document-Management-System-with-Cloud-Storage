@@ -1,0 +1,85 @@
+.content-container {
+    padding: 20px;
+    width: 100%;
+  }
+  .head
+  {
+    color:black
+  }
+  
+  .intro-text {
+    margin-bottom: 20px;
+    animation: blinking 1s infinite;
+    font-size:45px;
+    color:bisque
+
+  }
+  
+  .feature-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  
+    .feature-item {
+      text-align: center;
+  
+      .icon {
+        font-size: 8em;
+        
+        margin-bottom: 10px;
+      }
+  
+      .blinking-text {
+        animation: blinking 1s infinite;
+        font-size: 20px;
+       
+      }
+      margin-right: 180px;
+    }
+  }
+  
+  .roadmap-section {
+    text-align: center;
+    align-items: center;
+    background-color: seashell;
+  
+    h2 {
+      margin-bottom: 20px;
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+      align-items: center;
+  
+      li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+  
+        .roadmap-icon {
+          font-size: 1.5em;
+          margin-right: 10px;
+        }
+  
+        .blinking-text {
+          animation: blinking 1s infinite;
+          align-items: center ;
+          color:green;
+          font-size:20px;
+        }
+        margin-bottom: 50px;
+      }
+    }
+  }
+  
+  @keyframes blinking {
+    0%, 100% {
+      opacity: 0.5;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  }
+  
